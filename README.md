@@ -1,0 +1,2 @@
+# AdvancedExpandableTextCell
+根据输入文字多少可动态自动撑开的textview
