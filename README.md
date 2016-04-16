@@ -1,6 +1,6 @@
 # AdvancedExpandableTextCell
 
-根据输入文字多少可动态自动撑开的textview，非常类似于微博App中，发布微博时的体验。虽然github上也有些类似开源代码，但
+根据输入文字多少可动态自动撑开的textview，非常类似于微博App中，发布微博时的体验。github上也有些类似开源代码，但都没有处理拷贝位置情况下引起的光标位置的处理。
 
 ![](https://github.com/smallhorse1987/AdvancedExpandableTextCell/blob/master/AdvancedExpandableTextCellExample/demo.gif)
 
@@ -12,12 +12,9 @@
 5. 可定义最大可输入文字个数。
 
 ## 参考或使用的第三方开源代码
-1. 【使用】可定义占位提示文字 
-[] (https://github.com/glaszig/SZTextView)
-2. 【参考】可自动撑开的textview 
-[] (https://github.com/acerbetti/ACEExpandableTextCell)
-3. 【参考】输入框躲避键盘 
-[] (https://github.com/michaeltyson/TPKeyboardAvoiding)
+1. 【使用】 [可定义占位提示文字](https://github.com/glaszig/SZTextView)
+2. 【参考】[可自动撑开的textview](https://github.com/acerbetti/ACEExpandableTextCell)
+3. 【参考】[输入框躲避键盘](https://github.com/michaeltyson/TPKeyboardAvoiding)
 
 ## License
 
