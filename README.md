@@ -12,12 +12,9 @@
 5，可定义最大可输入文字个数。
 
 ## 参考或使用的第三方开源代码
-1, 【使用】可定义占位提示文字 
-![] (https://github.com/glaszig/SZTextView)
-2, 【参考】可自动撑开的textview
-![] (https://github.com/acerbetti/ACEExpandableTextCell)
-3, 【参考】输入框躲避键盘
-![] (https://github.com/michaeltyson/TPKeyboardAvoiding)
+1. 【使用】可定义占位提示文字 ![] (https://github.com/glaszig/SZTextView)
+2. 【参考】可自动撑开的textview ![] (https://github.com/acerbetti/ACEExpandableTextCell)
+3. 【参考】输入框躲避键盘 ![] (https://github.com/michaeltyson/TPKeyboardAvoiding)
 
 ## License
 
