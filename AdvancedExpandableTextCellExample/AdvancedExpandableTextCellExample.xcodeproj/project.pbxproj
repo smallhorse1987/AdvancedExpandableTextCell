@@ -13,6 +13,9 @@
 		814B7ED21CC1EEC50064ED85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814B7ED01CC1EEC50064ED85 /* Main.storyboard */; };
 		814B7ED41CC1EEC50064ED85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814B7ED31CC1EEC50064ED85 /* Assets.xcassets */; };
 		814B7ED71CC1EEC50064ED85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814B7ED51CC1EEC50064ED85 /* LaunchScreen.storyboard */; };
+		814B7EE71CC1F48F0064ED85 /* AdvancedExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE21CC1F48F0064ED85 /* AdvancedExpandableTextCell.m */; };
+		814B7EE81CC1F48F0064ED85 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE41CC1F48F0064ED85 /* SZTextView.m */; };
+		814B7EE91CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE61CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		814B7ED31CC1EEC50064ED85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814B7ED61CC1EEC50064ED85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814B7ED81CC1EEC50064ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814B7EE11CC1F48F0064ED85 /* AdvancedExpandableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedExpandableTextCell.h; sourceTree = "<group>"; };
+		814B7EE21CC1F48F0064ED85 /* AdvancedExpandableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedExpandableTextCell.m; sourceTree = "<group>"; };
+		814B7EE31CC1F48F0064ED85 /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTextView.h; sourceTree = "<group>"; };
+		814B7EE41CC1F48F0064ED85 /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTextView.m; sourceTree = "<group>"; };
+		814B7EE51CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KeyboardAvoiding.h"; sourceTree = "<group>"; };
+		814B7EE61CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KeyboardAvoiding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		814B7EBB1CC1EEC50064ED85 = {
 			isa = PBXGroup;
 			children = (
+				814B7EE01CC1F48F0064ED85 /* AdvancedExpandableTextCell */,
 				814B7EC61CC1EEC50064ED85 /* AdvancedExpandableTextCellExample */,
 				814B7EC51CC1EEC50064ED85 /* Products */,
 			);
@@ -77,6 +87,19 @@
 				814B7EC81CC1EEC50064ED85 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		814B7EE01CC1F48F0064ED85 /* AdvancedExpandableTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				814B7EE11CC1F48F0064ED85 /* AdvancedExpandableTextCell.h */,
+				814B7EE21CC1F48F0064ED85 /* AdvancedExpandableTextCell.m */,
+				814B7EE31CC1F48F0064ED85 /* SZTextView.h */,
+				814B7EE41CC1F48F0064ED85 /* SZTextView.m */,
+				814B7EE51CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.h */,
+				814B7EE61CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m */,
+			);
+			path = AdvancedExpandableTextCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				814B7ECF1CC1EEC50064ED85 /* ViewController.m in Sources */,
+				814B7EE81CC1F48F0064ED85 /* SZTextView.m in Sources */,
 				814B7ECC1CC1EEC50064ED85 /* AppDelegate.m in Sources */,
+				814B7EE91CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m in Sources */,
+				814B7EE71CC1F48F0064ED85 /* AdvancedExpandableTextCell.m in Sources */,
 				814B7EC91CC1EEC50064ED85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +326,7 @@
 				814B7EDD1CC1EEC50064ED85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
