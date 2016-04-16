@@ -1,6 +1,6 @@
 # AdvancedExpandableTextCell
 
-根据输入文字多少可动态自动撑开的textview，非常类似于微博App中，发布微博时的体验。github上也有些类似开源代码，但都没有处理拷贝位置情况下引起的光标位置的处理。
+根据输入文字多少可动态自动撑开的textview，非常类似于微博App中，发布微博时的体验。github上也有些类似开源代码，但都没有处理拷贝文字情况下引起的光标位置的处理。
 
 ![](https://github.com/smallhorse1987/AdvancedExpandableTextCell/blob/master/AdvancedExpandableTextCellExample/demo.gif)
 
