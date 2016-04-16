@@ -13,11 +13,11 @@
 
 ## 参考或使用的第三方开源代码
 1. 【使用】可定义占位提示文字 
-2. ![] (https://github.com/glaszig/SZTextView)
+[] (https://github.com/glaszig/SZTextView)
 2. 【参考】可自动撑开的textview 
-3. ![] (https://github.com/acerbetti/ACEExpandableTextCell)
+[] (https://github.com/acerbetti/ACEExpandableTextCell)
 3. 【参考】输入框躲避键盘 
-4. ![] (https://github.com/michaeltyson/TPKeyboardAvoiding)
+[] (https://github.com/michaeltyson/TPKeyboardAvoiding)
 
 ## License
 
