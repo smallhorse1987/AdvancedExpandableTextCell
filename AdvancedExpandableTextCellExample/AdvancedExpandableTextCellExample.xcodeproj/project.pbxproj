@@ -16,6 +16,7 @@
 		814B7EE71CC1F48F0064ED85 /* AdvancedExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE21CC1F48F0064ED85 /* AdvancedExpandableTextCell.m */; };
 		814B7EE81CC1F48F0064ED85 /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE41CC1F48F0064ED85 /* SZTextView.m */; };
 		814B7EE91CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 814B7EE61CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m */; };
+		814B7EEB1CC204D30064ED85 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 814B7EEA1CC204D30064ED85 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		814B7EE41CC1F48F0064ED85 /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTextView.m; sourceTree = "<group>"; };
 		814B7EE51CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KeyboardAvoiding.h"; sourceTree = "<group>"; };
 		814B7EE61CC1F48F0064ED85 /* UIScrollView+KeyboardAvoiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KeyboardAvoiding.m"; sourceTree = "<group>"; };
+		814B7EEA1CC204D30064ED85 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		814B7EC61CC1EEC50064ED85 /* AdvancedExpandableTextCellExample */ = {
 			isa = PBXGroup;
 			children = (
+				814B7EEA1CC204D30064ED85 /* demo.gif */,
 				814B7ECA1CC1EEC50064ED85 /* AppDelegate.h */,
 				814B7ECB1CC1EEC50064ED85 /* AppDelegate.m */,
 				814B7ECD1CC1EEC50064ED85 /* ViewController.h */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				814B7ED71CC1EEC50064ED85 /* LaunchScreen.storyboard in Resources */,
+				814B7EEB1CC204D30064ED85 /* demo.gif in Resources */,
 				814B7ED41CC1EEC50064ED85 /* Assets.xcassets in Resources */,
 				814B7ED21CC1EEC50064ED85 /* Main.storyboard in Resources */,
 			);
